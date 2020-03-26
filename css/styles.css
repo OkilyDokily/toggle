@@ -4,15 +4,65 @@ div.sidebar {
   background-color: blue;
   color:orange;
   float: left;
+  display:none;
 }
 
 #hidethesidebar{
   display:none;
   color:blue;
+  cursor: pointer;
   text-decoration: underline;
 }
 
 #showthesidebar{
   color:blue;
+  cursor: pointer;
   text-decoration: underline;
 }
+
+.imgdiv{
+  text-align: center;
+}
+
+#warthogs{
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stopwarthogs{
+  display:none;
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.warthogs{
+  display:none;
+}
+
+#vervetmonkeys{
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stopvervetmonkeys{
+  display:none;
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.vervetmonkeys{
+  display:none;
+}
+
+
+
+img{
+  padding-top: 10px;
+}
+
+h1{
+  margin-top: 0;
+}
+
