@@ -56,6 +56,23 @@ div.sidebar {
   display:none;
 }
 
+#honeybadgers{
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#stophoneybadgers{
+  display:none;
+  color:green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.honeybadgers{
+  display:none;
+}
+
+
 
 
 img{

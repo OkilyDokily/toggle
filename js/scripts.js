@@ -40,6 +40,19 @@ $(document).ready(function(){
     $("#stopvervetmonkeys").hide();
   })
 
+  $("#honeybadgers").click(function(){
+    $(".honeybadgers").show();
+    $("#honeybadgers").hide();
+    $("#stophoneybadgers").show();
+
+  })
+
+  $("#stophoneybadgers").click(function(){
+    $(".honeybadgers").hide();
+    $("#honeybadgers").show();
+    $("#stophoneybadgers").hide();
+  })
+
 
 
 
